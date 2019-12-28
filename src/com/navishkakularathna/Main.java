@@ -19,7 +19,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //ArrayList<IntClass>
+        ArrayList<IntClass> intClassArrayList = new ArrayList<IntClass>();
+        intClassArrayList.add(new IntClass(54));
+
+        Integer integer = new Integer(54);
+        Double doubleValue = new Double(12.25);
+
+        ArrayList<Integer> intArrayList = new ArrayList<Integer>();
 
     }
 }
